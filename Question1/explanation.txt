@@ -1,0 +1,15 @@
+The whoami command displays the currently logged-in user.
+The groups command shows all groups the user belongs to.
+The pwd command shows the present working directory.
+The ls -l command lists files and directories with detailed information.
+The echo command was used with output redirection to write a confirmation message into user_info.txt.
+The cat command was used to verify the file contents.
+The wc -c command was used to count the total number of characters present in the file user_info.txt.
+The man mkdir command was used to open the manual page of the mkdir command.  
+The -p option allows creating parent directories automatically if they do not exist, and it does not throw an error if the directory already exists.
+The ls ~ command lists all files and directories present in the user's home directory. The output is sorted alphabetically by default.
+The grep admin log.txt command searches for the word "admin" inside the log.txt file and displays only the lines that contain the matching keyword.
+The uname -r command displays the version of the Linux kernel that is currently running on the system.
+The ping command was used to test network connectivity by sending ICMP packets to www.google.com. Receiving replies confirms that the system has an active internet connection.
+The uptime command displays how long the system has been running since the last boot, the number of users currently logged in, and the system load average over the last 1, 5, and 15 minutes.
+

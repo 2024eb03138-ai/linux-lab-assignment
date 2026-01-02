@@ -1,0 +1,36 @@
+zeeshan
+staff everyone localaccounts _appserverusr admin _appserveradm com.apple.sharepoint.group.1 _appstore _lpadmin _lpoperator _developer _analyticsusers com.apple.access_ftp com.apple.access_screensharing com.apple.access_ssh com.apple.access_remote_ae
+
+/Users/zeeshan/linux-lab-assignment/Question1
+total 8
+-rw-r--r--  1 zeeshan  staff  14  2 Jan 18:51 commands.txt
+-rw-r--r--@ 1 zeeshan  staff   0  2 Jan 17:47 explanation.txt
+-rw-r--r--  1 zeeshan  staff   0  2 Jan 17:47 output.txt
+drwxr-xr-x  3 zeeshan  staff  96  2 Jan 18:45 screenshots
+
+Linux user environment verified
+
+      32 user_info.txt
+
+Manual page for mkdir command was opened.
+
+anaconda_projects	Documents		endsempro		Java 			Movies			mynotebooknumpy.ipynb	PyCharmMiscProject
+Applications		Downloads		finalnumpy.ipynb	Library			Music			Pictures		PycharmProjects
+Desktop			endsem			FirstProgram.py		linux-lab-assignment	my notebookpandas.ipynb	Public			Python
+
+admin logged in
+admin performed maintenance
+
+25.2.0
+
+PING www.google.com (172.217.24.4): 56 data bytes
+64 bytes from 172.217.24.4: icmp_seq=0 ttl=118 time=16.303 ms
+64 bytes from 172.217.24.4: icmp_seq=1 ttl=118 time=12.229 ms
+64 bytes from 172.217.24.4: icmp_seq=2 ttl=118 time=26.912 ms
+64 bytes from 172.217.24.4: icmp_seq=3 ttl=118 time=11.708 ms
+
+--- www.google.com ping statistics ---
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 11.708/16.788/26.912/6.110 ms
+
+19:56  up 7 days, 23:54, 2 users, load averages: 2.50 2.56 2.49

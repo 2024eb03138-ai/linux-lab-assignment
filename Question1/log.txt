@@ -1,0 +1,6 @@
+system started successfully
+admin logged in
+user process running
+admin performed maintenance
+backup completed
+
