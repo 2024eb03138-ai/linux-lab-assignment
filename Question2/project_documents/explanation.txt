@@ -1,0 +1,11 @@
+The cd command was used to navigate into the documents directory.
+The touch command was used to create an empty file named plan.txt.
+The echo command was used with output redirection to write text into plan.txt.
+The cat command was used to verify the contents of the file.
+The ls -l command was used to display file permissions and ownership details of plan.txt, confirming that the file belongs to the current user.
+The cp command was used to create a duplicate copy of plan.txt named plan_copy.txt.
+The mv command was used to rename the documents directory to project_documents.
+An archive subdirectory was created to store copied files.
+The mv command moved plan_copy.txt into the archive directory.
+The ls -R command displayed the complete directory structure recursively.
+

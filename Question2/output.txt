@@ -1,0 +1,13 @@
+Finish Linux lab assignment by today
+
+-rw-r--r-- 1 zeeshan staff plan.txt
+
+project_documents:
+archive
+plan.txt
+
+project_documents/archive:
+plan_copy.txt
+
+/Users/zeeshan/linux-lab-assignment/Question2/project_documents/archive
+

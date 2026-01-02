@@ -1,0 +1,9 @@
+plan.txt
+Finish Linux lab assignment by today
+-rw-r--r--  1 zeeshan  staff  37  2 Jan 20:20 plan.txt
+plan.txt
+plan_copy.txt
+archive		commands.txt	explanation.txt	output.txt	plan.txt
+
+./archive:
+plan_copy.txt

@@ -1,0 +1,8 @@
+The mkdir command was used to create a directory.
+The touch and echo commands created a file and added content.
+The ls -l command displayed file permissions and ownership.
+The cp command duplicated the file.
+The mv command renamed directories and moved files.
+The ls -R command showed the directory structure recursively.
+The pwd command displayed the absolute path of the file.
+
