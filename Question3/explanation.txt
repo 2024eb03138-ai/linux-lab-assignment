@@ -1,0 +1,32 @@
+Step 1:
+A file named sample_data.txt was created in the home directory with sample content.
+
+Step 2:
+A hard link named sample_hard.txt was created, pointing to the same inode as sample_data.txt.
+
+Step 3:
+A symbolic link named sample_soft.txt was created, which points to the original file path.
+
+Step 4:
+The ls -li command was used to display inode numbers of all files.
+
+Step 5:
+sample_data.txt and sample_hard.txt share the same inode because hard links reference the same file data.
+sample_soft.txt has a different inode because it only stores the path to the original file.
+
+Step 6:
+The ls -l command was used to display permissions, ownership, size, and timestamps of the file.
+
+Step 7:
+The du -sh command shows total disk usage of the home directory in human-readable format.
+
+Step 8:
+The ls -lh command displays the size of each file in the home directory.
+
+Step 9:
+The symbolic link was deleted, and the original file remained unaffected, proving links are independent.
+
+Step 10:
+The du command shows disk usage of directories, while the df command displays filesystem-wide disk space usage.
+
+

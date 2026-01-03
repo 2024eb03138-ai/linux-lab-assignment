@@ -1,0 +1,30 @@
+# Step 1: Create a file in home directory and add content
+echo "This is sample data for link testing" > ~/sample_data.txt
+
+# Step 2: Create a hard link
+ln ~/sample_data.txt ~/sample_hard.txt
+
+# Step 3: Create a symbolic link
+ln -s ~/sample_data.txt ~/sample_soft.txt
+
+# Step 4: Display inode numbers
+ls -li ~/sample_data.txt ~/sample_hard.txt ~/sample_soft.txt
+
+# Step 6: Display detailed file information
+ls -l ~/sample_data.txt
+
+# Step 7: Display disk usage of home directory
+du -sh ~
+
+# Step 8: Display size of each file in home directory
+ls -lh ~
+
+# Step 9: Delete symbolic link and verify original file
+rm ~/sample_soft.txt
+ls ~/sample_data.txt
+
+# Step 10: Disk utility commands
+du -h ~
+df -h
+
+

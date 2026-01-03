@@ -1,0 +1,61 @@
+# Step 1
+This is sample data for link testing
+
+#Step 4
+9023331 -rw-r--r--  2 zeeshan  staff  37  3 Jan 13:41 sample_data.txt
+9023331 -rw-r--r--  2 zeeshan  staff  37  3 Jan 13:41 sample_hard.txt
+9060913 lrwxr-xr-x  1 zeeshan  staff  15  3 Jan 13:48 sample_soft.txt -> sample_data.txt
+
+#Step 6
+-rw-r--r--  2 zeeshan  staff  37  3 Jan 13:41 sample_data.txt
+
+#Step 7
+99G	/Users/zeeshan
+
+#Step 8
+total 192
+drwxr-xr-x   3 zeeshan  staff    96B 16 Oct 18:39 anaconda_projects
+drwx------@  8 zeeshan  staff   256B 30 Oct 16:41 Applications
+-rw-r--r--   1 zeeshan  staff    63B  3 Jan 13:30 commands.txt
+drwx------@  9 zeeshan  staff   288B  2 Jan 20:39 Desktop
+drwx------@ 13 zeeshan  staff   416B 30 Oct 18:18 Documents
+drwx------@ 46 zeeshan  staff   1.4K 12 Dec 16:33 Downloads
+drwxr-xr-x   3 zeeshan  staff    96B 30 Oct 13:09 endsem
+drwxr-xr-x   5 zeeshan  staff   160B 30 Oct 13:08 endsempro
+-rw-r--r--   1 zeeshan  staff    97B  3 Jan 13:31 explanation.txt
+-rw-r--r--   1 zeeshan  staff   2.3K 12 Dec 17:09 finalnumpy.ipynb
+-rw-r--r--@  1 zeeshan  staff    20B 30 Aug 20:08 FirstProgram.py
+drwxr-xr-x  11 zeeshan  staff   352B 20 Aug 15:07 Java 
+drwx------@ 91 zeeshan  staff   2.8K 16 Oct 18:39 Library
+drwxr-xr-x   9 zeeshan  staff   288B  2 Jan 18:40 linux-lab-assignment
+drwx------   9 zeeshan  staff   288B 19 Dec 23:44 Movies
+drwx------+  7 zeeshan  staff   224B 30 Oct 13:08 Music
+-rw-r--r--   1 zeeshan  staff    39K 13 Dec 18:17 my notebookpandas.ipynb
+-rw-r--r--   1 zeeshan  staff    25K 10 Dec 14:40 mynotebooknumpy.ipynb
+-rw-r--r--   1 zeeshan  staff    38B  3 Jan 13:31 output.txt
+drwx------+  6 zeeshan  staff   192B 21 Aug 12:28 Pictures
+drwxr-xr-x+  4 zeeshan  staff   128B 15 Aug 17:29 Public
+drwxr-xr-x@  6 zeeshan  staff   192B 22 Oct 21:48 PyCharmMiscProject
+drwxr-xr-x   6 zeeshan  staff   192B 30 Oct 13:08 PycharmProjects
+drwxr-xr-x   4 zeeshan  staff   128B 31 Aug 14:46 Python
+-rw-r--r--   2 zeeshan  staff    37B  3 Jan 13:41 sample_data.txt
+-rw-r--r--   2 zeeshan  staff    37B  3 Jan 13:41 sample_hard.txt
+lrwxr-xr-x   1 zeeshan  staff    15B  3 Jan 13:48 sample_soft.txt -> sample_data.txt
+
+#Step 9
+sample_data.txt
+
+#Step 10
+ 99G	/Users/zeeshan
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    11Gi    63Gi    16%    453k  661M    0%   /
+devfs            201Ki   201Ki     0Bi   100%     694     0  100%   /dev
+/dev/disk3s6     228Gi    20Ki    63Gi     1%       0  661M    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   7.6Gi    63Gi    11%    1.3k  661M    0%   /System/Volumes/Preboot
+/dev/disk3s4     228Gi   7.4Mi    63Gi     1%     109  661M    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   482Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   6.0Mi   482Mi     2%      32  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   1.4Mi   482Mi     1%      94  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     228Gi   145Gi    63Gi    70%    1.0M  661M    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+
