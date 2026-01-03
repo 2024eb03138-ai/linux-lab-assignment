@@ -1,0 +1,16 @@
+uptime
+ps -u $USER
+top -o cpu
+zeeshan@Zeeshans-MacBook-Air Question4 % sleep 300 &
+jobs
+sleep 600 &
+ps -o pid,ni,comm -u $USER
+renice 5 -p <PID>
+ps -o pid,ni,comm -u $USER
+vm_stat
+ df -h ~
+ echo $SHELL
+ uname -a > system_report.txt
+cat system_report.txt
+ncdu ~
+

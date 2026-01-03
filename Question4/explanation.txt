@@ -1,0 +1,20 @@
+The uptime command shows how long the system has been running since the last boot, the number of logged-in users, and the system load average.
+
+This command lists all processes currently running under my user account.
+
+The top command displays real-time system processes sorted by CPU usage, allowing identification of the highest CPU-consuming process.
+
+A sleep command was started in the background, and the jobs command confirmed it is running.
+
+A background process was started using sleep. The renice command was used to change the priority (niceness) of the running process, and the updated priority was verified using ps.
+
+vm_stat displays memory usage statistics such as free, active, inactive, and wired memory.
+
+The df -h command shows disk space usage of the filesystem where the home directory resides in a human-readable format.
+
+This command displays the shell currently being used by the user.
+
+The output of a system information command was redirected into a file using output redirection.
+
+ncdu provides an interactive disk usage visualization, showing which directories consume the most space.
+

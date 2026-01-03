@@ -1,0 +1,44 @@
+14:46  up 8 days, 18:44, 2 users, load averages: 3.32 3.15 2.74
+
+  501 33027 ??         0:02.68 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+  501 33034 ??         0:00.08 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/ThemeWidgetControlViewService.xpc/Contents/MacOS/ThemeWidgetControlViewService
+  501 33051 ??         0:00.06 /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/MacOS/com.apple.iCloudHelper
+  501 33062 ??         0:01.09 /System/Library/CoreServices/screencaptureui.app/Contents/MacOS/screencaptureui
+  501 33078 ??         0:00.11 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImpo
+    0 33028 ttys000    0:00.01 login -pf zeeshan
+  501 33029 ttys000    0:00.03 -zsh
+    0 33090 ttys000    0:00.01 ps -u zeeshan
+
+[1] 33222
+[1]  + running    sleep 300
+
+zeeshan@Zeeshans-MacBook-Air Question4 % ps -o pid,ni,comm -u $USER
+renice 5 -p <300>
+ps -o pid,ni,comm -u $USER
+
+zsh: parse error near `\n'
+zeeshan@Zeeshans-MacBook-Air Question4 % ps -o pid,ni,comm -u $USER
+renice 5 -p <33222> 
+ps -o pid,ni,comm -u $USER
+[1]  + done       sleep 300
+zeeshan@Zeeshans-MacBook-Air Question4 % ps -o pid,ni,comm -u $USER
+renice 5 -p <33222>
+ps -o pid,ni,comm -u $USER
+zsh: parse error near `\n'
+zeeshan@Zeeshans-MacBook-Air Question4 % sleep 600 &
+
+[1] 33279
+zeeshan@Zeeshans-MacBook-Air Question4 % renice 5 -p 33279
+zeeshan@Zeeshans-MacBook-Air Question4 % ps -o pid,ni,comm -u $USER
+  PID NI COMM
+  879  0 /usr/sbin/distnoted
+  906  0 /usr/libexec/secd
+  908  0 /usr/sbin/cfprefsd
+  909  0 /usr/libexec/UserEventAgent
+  914  0 /System/Library/CoreServices/audioaccessoryd
+  915  0 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+  916  0 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+  917  0 /usr/sbin/universalaccessd
+  919  0 /usr/libexec/pboard
+  920  0 /usr/libexec/lsd
+
